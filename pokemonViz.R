@@ -35,7 +35,7 @@ df_pokemon3=read_csv("C:/Users/UTP/OneDrive - Universidad Tecnologica del Peru/D
 df_pokemon3_normal=df_pokemon3 %>% 
   filter(form=='Normal')
 
-## i joined bot dataframes
+## i joined both dataframes
 
 df_pokemon4=inner_join(x=df_pokemon1_normal,y=df_pokemon3_normal,by="pokemon_id")
 
@@ -81,7 +81,7 @@ plot1=ggplot(df_pokemon4_1,aes(x=type1,y=max_cp))+
     panel.grid = element_blank())+
   labs(
     title = 'Pokemons and their maximum Combat Power (MCP)',
-    subtitle = 'Distribution of the MCP by type within the game Pokemon GO®.',
+    subtitle = 'Distribution of the MCP by type within the game Pokemon GOÂ®.',
     x='Type',
     y='MCP',
     caption = 'Based on Pokemon Go API, from "https://rapidapi.com/Chewett/api/pokemon-go1/"'
@@ -138,7 +138,7 @@ plot2=ggplot(df_pokemon4_2,aes(x=type1,y=max_cp))+
     panel.grid = element_blank())+
   labs(
     title = 'Pokemons and their maximum Combat Power (MCP)',
-    subtitle = 'Distribution of the MCP by type within the game Pokemon GO®.',
+    subtitle = 'Distribution of the MCP by type within the game Pokemon GOÂ®.',
     x='Type',
     y='MCP',
     caption = 'Based on Pokemon Go API, from "https://rapidapi.com/Chewett/api/pokemon-go1/"'
@@ -194,7 +194,7 @@ plot3=ggplot(df_pokemon4_3,aes(x=type1,y=max_cp))+
     panel.grid = element_blank())+
   labs(
     title = 'Pokemons and their maximum Combat Power (MCP)',
-    subtitle = 'Distribution of the MCP by type within the game Pokemon GO®.',
+    subtitle = 'Distribution of the MCP by type within the game Pokemon GOÂ®.',
     x='Type',
     y='MCP',
     caption = 'Based on Pokemon Go API, from "https://rapidapi.com/Chewett/api/pokemon-go1/"'
