@@ -1,5 +1,5 @@
 # PokemonDataViz
-## Here you will find the code and required files for making these visuals: https://www.instagram.com/p/CdsWnYmu0mR/?utm_source=ig_web_copy_link
+### Here you will find the code and required files for making these visuals: https://www.instagram.com/p/CdsWnYmu0mR/?utm_source=ig_web_copy_link
 ### brief description of the files:
 1. **pokemonViz.R**: R file containing the main code for extracting, processing data and making the visuals
 2. **pokemon_api.ipynb.**: Jupyter notebook used for extraction and manipulation of the second dataset. if you can't perform this step to obtain the second dataset, you can always check the .csv file with the same output.
